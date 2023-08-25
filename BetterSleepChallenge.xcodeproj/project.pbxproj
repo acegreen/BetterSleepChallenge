@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2326C11B2A867F19006C31C9 /* BSSoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2326C11A2A867F19006C31C9 /* BSSoundModel.swift */; };
+		2342C8322A83076A0018EBBE /* BetterSleepChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342C8312A83076A0018EBBE /* BetterSleepChallengeApp.swift */; };
+		2342C8342A83076A0018EBBE /* BSTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342C8332A83076A0018EBBE /* BSTabView.swift */; };
+		2342C8362A83076C0018EBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2342C8352A83076C0018EBBE /* Assets.xcassets */; };
+		2342C8392A83076C0018EBBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2342C8382A83076C0018EBBE /* Preview Assets.xcassets */; };
+		2342C8452A83076C0018EBBE /* BetterSleepChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342C8442A83076C0018EBBE /* BetterSleepChallengeTests.swift */; };
+		237A86E12A8444BC00426026 /* BSBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237A86E02A8444BC00426026 /* BSBackgroundView.swift */; };
+		2380308E2A89BBF300B8C350 /* BSUserStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2380308D2A89BBF300B8C350 /* BSUserStoreManager.swift */; };
+		238030902A89BFAF00B8C350 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2380308F2A89BFAF00B8C350 /* README.md */; };
+		2381A1742A858BBB008CB76D /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2381A1732A858BBB008CB76D /* String+Extensions.swift */; };
+		2398D31A2A844DAF008CBA54 /* BSComposerViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398D3192A844DAF008CBA54 /* BSComposerViewType.swift */; };
+		2398D31C2A844DC4008CBA54 /* BSComposerViewFilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398D31B2A844DC4008CBA54 /* BSComposerViewFilterType.swift */; };
+		2398D31E2A844DF4008CBA54 /* BSComposerViewSoundType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398D31D2A844DF4008CBA54 /* BSComposerViewSoundType.swift */; };
+		2398D3222A8450EC008CBA54 /* UserDefaultsBacked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398D3212A8450EC008CBA54 /* UserDefaultsBacked.swift */; };
+		2398D3252A84526E008CBA54 /* BSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398D3242A84526E008CBA54 /* BSConstants.swift */; };
+		2398D3292A8455C8008CBA54 /* BSSoundPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2398D3282A8455C8008CBA54 /* BSSoundPlayerViewModel.swift */; };
+		239DA7012A981F2B0054D745 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239DA7002A981F2B0054D745 /* WidgetKit.framework */; };
+		239DA7032A981F2B0054D745 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239DA7022A981F2B0054D745 /* SwiftUI.framework */; };
+		239DA7062A981F2B0054D745 /* BetterSleepChallengeWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DA7052A981F2B0054D745 /* BetterSleepChallengeWidgetBundle.swift */; };
+		239DA7082A981F2B0054D745 /* BetterSleepChallengeWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DA7072A981F2B0054D745 /* BetterSleepChallengeWidgetLiveActivity.swift */; };
+		239DA70A2A981F2B0054D745 /* BetterSleepChallengeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DA7092A981F2B0054D745 /* BetterSleepChallengeWidget.swift */; };
+		239DA70C2A981F2E0054D745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239DA70B2A981F2E0054D745 /* Assets.xcassets */; };
+		239DA7102A981F2E0054D745 /* BetterSleepChallengeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 239DA6FE2A981F2B0054D745 /* BetterSleepChallengeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		239DA7152A9824240054D745 /* BetterSleepChallengeWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239DA7072A981F2B0054D745 /* BetterSleepChallengeWidgetLiveActivity.swift */; };
+		23D66F392A83175200D824DE /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D66F382A83175200D824DE /* View+Extensions.swift */; };
+		23D66F3C2A8317BE00D824DE /* BSComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D66F3B2A8317BE00D824DE /* BSComposerView.swift */; };
+		23D66F3E2A832F1500D824DE /* BSSoundPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D66F3D2A832F1500D824DE /* BSSoundPlayerManager.swift */; };
+		23D66F4A2A833DB500D824DE /* wind.caf in Resources */ = {isa = PBXBuildFile; fileRef = 23D66F412A833DB500D824DE /* wind.caf */; };
+		23D66F4B2A833DB500D824DE /* musicbox.caf in Resources */ = {isa = PBXBuildFile; fileRef = 23D66F422A833DB500D824DE /* musicbox.caf */; };
+		23D66F4C2A833DB500D824DE /* flute.caf in Resources */ = {isa = PBXBuildFile; fileRef = 23D66F432A833DB500D824DE /* flute.caf */; };
+		23D66F4D2A833DB500D824DE /* piano.caf in Resources */ = {isa = PBXBuildFile; fileRef = 23D66F442A833DB500D824DE /* piano.caf */; };
+		23D66F4E2A833DB500D824DE /* lounge.caf in Resources */ = {isa = PBXBuildFile; fileRef = 23D66F452A833DB500D824DE /* lounge.caf */; };
+		23D66F4F2A833DB500D824DE /* rain.caf in Resources */ = {isa = PBXBuildFile; fileRef = 23D66F462A833DB500D824DE /* rain.caf */; };
+		23D66F502A833DB500D824DE /* birds.caf in Resources */ = {isa = PBXBuildFile; fileRef = 23D66F472A833DB500D824DE /* birds.caf */; };
+		23D66F512A833DB500D824DE /* ocean.caf in Resources */ = {isa = PBXBuildFile; fileRef = 23D66F482A833DB500D824DE /* ocean.caf */; };
+		23D66F522A833DB500D824DE /* orchestral.caf in Resources */ = {isa = PBXBuildFile; fileRef = 23D66F492A833DB500D824DE /* orchestral.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2342C8412A83076C0018EBBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2342C8262A83076A0018EBBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2342C82D2A83076A0018EBBE;
+			remoteInfo = BetterSleepChallenge;
+		};
+		239DA70E2A981F2E0054D745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2342C8262A83076A0018EBBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 239DA6FD2A981F2B0054D745;
+			remoteInfo = BetterSleepChallengeWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		239DA7142A981F2E0054D745 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				239DA7102A981F2E0054D745 /* BetterSleepChallengeWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2326C1192A867B15006C31C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2326C11A2A867F19006C31C9 /* BSSoundModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSSoundModel.swift; sourceTree = "<group>"; };
+		2342C82E2A83076A0018EBBE /* BetterSleepChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterSleepChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2342C8312A83076A0018EBBE /* BetterSleepChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSleepChallengeApp.swift; sourceTree = "<group>"; };
+		2342C8332A83076A0018EBBE /* BSTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTabView.swift; sourceTree = "<group>"; };
+		2342C8352A83076C0018EBBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2342C8382A83076C0018EBBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2342C8402A83076C0018EBBE /* BetterSleepChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterSleepChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2342C8442A83076C0018EBBE /* BetterSleepChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSleepChallengeTests.swift; sourceTree = "<group>"; };
+		2351086B2A885D9C00E88E5B /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
+		237A86E02A8444BC00426026 /* BSBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSBackgroundView.swift; sourceTree = "<group>"; };
+		2380308D2A89BBF300B8C350 /* BSUserStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSUserStoreManager.swift; sourceTree = "<group>"; };
+		2380308F2A89BFAF00B8C350 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		2381A1732A858BBB008CB76D /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		2398D3192A844DAF008CBA54 /* BSComposerViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSComposerViewType.swift; sourceTree = "<group>"; };
+		2398D31B2A844DC4008CBA54 /* BSComposerViewFilterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSComposerViewFilterType.swift; sourceTree = "<group>"; };
+		2398D31D2A844DF4008CBA54 /* BSComposerViewSoundType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSComposerViewSoundType.swift; sourceTree = "<group>"; };
+		2398D3212A8450EC008CBA54 /* UserDefaultsBacked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsBacked.swift; sourceTree = "<group>"; };
+		2398D3242A84526E008CBA54 /* BSConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSConstants.swift; sourceTree = "<group>"; };
+		2398D3282A8455C8008CBA54 /* BSSoundPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSSoundPlayerViewModel.swift; sourceTree = "<group>"; };
+		239DA6FE2A981F2B0054D745 /* BetterSleepChallengeWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BetterSleepChallengeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		239DA7002A981F2B0054D745 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		239DA7022A981F2B0054D745 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		239DA7052A981F2B0054D745 /* BetterSleepChallengeWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSleepChallengeWidgetBundle.swift; sourceTree = "<group>"; };
+		239DA7072A981F2B0054D745 /* BetterSleepChallengeWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSleepChallengeWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		239DA7092A981F2B0054D745 /* BetterSleepChallengeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterSleepChallengeWidget.swift; sourceTree = "<group>"; };
+		239DA70B2A981F2E0054D745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		239DA70D2A981F2E0054D745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D66F382A83175200D824DE /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		23D66F3B2A8317BE00D824DE /* BSComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSComposerView.swift; sourceTree = "<group>"; };
+		23D66F3D2A832F1500D824DE /* BSSoundPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSSoundPlayerManager.swift; sourceTree = "<group>"; };
+		23D66F412A833DB500D824DE /* wind.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = wind.caf; sourceTree = "<group>"; };
+		23D66F422A833DB500D824DE /* musicbox.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = musicbox.caf; sourceTree = "<group>"; };
+		23D66F432A833DB500D824DE /* flute.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = flute.caf; sourceTree = "<group>"; };
+		23D66F442A833DB500D824DE /* piano.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = piano.caf; sourceTree = "<group>"; };
+		23D66F452A833DB500D824DE /* lounge.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lounge.caf; sourceTree = "<group>"; };
+		23D66F462A833DB500D824DE /* rain.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rain.caf; sourceTree = "<group>"; };
+		23D66F472A833DB500D824DE /* birds.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = birds.caf; sourceTree = "<group>"; };
+		23D66F482A833DB500D824DE /* ocean.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ocean.caf; sourceTree = "<group>"; };
+		23D66F492A833DB500D824DE /* orchestral.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = orchestral.caf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2342C82B2A83076A0018EBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2342C83D2A83076C0018EBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239DA6FB2A981F2B0054D745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239DA7032A981F2B0054D745 /* SwiftUI.framework in Frameworks */,
+				239DA7012A981F2B0054D745 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2342C8252A83076A0018EBBE = {
+			isa = PBXGroup;
+			children = (
+				2342C8302A83076A0018EBBE /* BetterSleepChallenge */,
+				2342C8432A83076C0018EBBE /* BetterSleepChallengeTests */,
+				239DA7042A981F2B0054D745 /* BetterSleepChallengeWidget */,
+				239DA6FF2A981F2B0054D745 /* Frameworks */,
+				2342C82F2A83076A0018EBBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2342C82F2A83076A0018EBBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2342C82E2A83076A0018EBBE /* BetterSleepChallenge.app */,
+				2342C8402A83076C0018EBBE /* BetterSleepChallengeTests.xctest */,
+				239DA6FE2A981F2B0054D745 /* BetterSleepChallengeWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2342C8302A83076A0018EBBE /* BetterSleepChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				2342C85F2A83081B0018EBBE /* Bundle */,
+				2380308C2A89BB7B00B8C350 /* Common */,
+				23D66F3F2A832F1B00D824DE /* Managers */,
+				2342C85D2A83080E0018EBBE /* Models */,
+				2398D32A2A8455CC008CBA54 /* ViewModels */,
+				2342C85E2A8308160018EBBE /* Views */,
+				23D66F3A2A83175500D824DE /* Extensions */,
+				2398D3232A8450F3008CBA54 /* Wrappers */,
+				2342C8602A8309AF0018EBBE /* Assets */,
+				2342C8372A83076C0018EBBE /* Preview Content */,
+			);
+			path = BetterSleepChallenge;
+			sourceTree = "<group>";
+		};
+		2342C8372A83076C0018EBBE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2342C8382A83076C0018EBBE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2342C8432A83076C0018EBBE /* BetterSleepChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2342C8442A83076C0018EBBE /* BetterSleepChallengeTests.swift */,
+			);
+			path = BetterSleepChallengeTests;
+			sourceTree = "<group>";
+		};
+		2342C85D2A83080E0018EBBE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2398D3192A844DAF008CBA54 /* BSComposerViewType.swift */,
+				2398D31B2A844DC4008CBA54 /* BSComposerViewFilterType.swift */,
+				2398D31D2A844DF4008CBA54 /* BSComposerViewSoundType.swift */,
+				2326C11A2A867F19006C31C9 /* BSSoundModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2342C85E2A8308160018EBBE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2342C8332A83076A0018EBBE /* BSTabView.swift */,
+				23D66F3B2A8317BE00D824DE /* BSComposerView.swift */,
+				237A86E02A8444BC00426026 /* BSBackgroundView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2342C85F2A83081B0018EBBE /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				2342C8312A83076A0018EBBE /* BetterSleepChallengeApp.swift */,
+				2326C1192A867B15006C31C9 /* Info.plist */,
+				2351086B2A885D9C00E88E5B /* Package.swift */,
+				2380308F2A89BFAF00B8C350 /* README.md */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		2342C8602A8309AF0018EBBE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2342C8352A83076C0018EBBE /* Assets.xcassets */,
+				23D66F402A833DB500D824DE /* Sounds */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2380308C2A89BB7B00B8C350 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2398D3242A84526E008CBA54 /* BSConstants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2398D3232A8450F3008CBA54 /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				2398D3212A8450EC008CBA54 /* UserDefaultsBacked.swift */,
+			);
+			path = Wrappers;
+			sourceTree = "<group>";
+		};
+		2398D32A2A8455CC008CBA54 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2398D3282A8455C8008CBA54 /* BSSoundPlayerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		239DA6FF2A981F2B0054D745 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				239DA7002A981F2B0054D745 /* WidgetKit.framework */,
+				239DA7022A981F2B0054D745 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		239DA7042A981F2B0054D745 /* BetterSleepChallengeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				239DA7052A981F2B0054D745 /* BetterSleepChallengeWidgetBundle.swift */,
+				239DA7072A981F2B0054D745 /* BetterSleepChallengeWidgetLiveActivity.swift */,
+				239DA7092A981F2B0054D745 /* BetterSleepChallengeWidget.swift */,
+				239DA70B2A981F2E0054D745 /* Assets.xcassets */,
+				239DA70D2A981F2E0054D745 /* Info.plist */,
+			);
+			path = BetterSleepChallengeWidget;
+			sourceTree = "<group>";
+		};
+		23D66F3A2A83175500D824DE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				23D66F382A83175200D824DE /* View+Extensions.swift */,
+				2381A1732A858BBB008CB76D /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		23D66F3F2A832F1B00D824DE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				23D66F3D2A832F1500D824DE /* BSSoundPlayerManager.swift */,
+				2380308D2A89BBF300B8C350 /* BSUserStoreManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		23D66F402A833DB500D824DE /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				23D66F412A833DB500D824DE /* wind.caf */,
+				23D66F422A833DB500D824DE /* musicbox.caf */,
+				23D66F432A833DB500D824DE /* flute.caf */,
+				23D66F442A833DB500D824DE /* piano.caf */,
+				23D66F452A833DB500D824DE /* lounge.caf */,
+				23D66F462A833DB500D824DE /* rain.caf */,
+				23D66F472A833DB500D824DE /* birds.caf */,
+				23D66F482A833DB500D824DE /* ocean.caf */,
+				23D66F492A833DB500D824DE /* orchestral.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2342C82D2A83076A0018EBBE /* BetterSleepChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2342C8542A83076C0018EBBE /* Build configuration list for PBXNativeTarget "BetterSleepChallenge" */;
+			buildPhases = (
+				2342C82A2A83076A0018EBBE /* Sources */,
+				2342C82B2A83076A0018EBBE /* Frameworks */,
+				2342C82C2A83076A0018EBBE /* Resources */,
+				239DA7142A981F2E0054D745 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				239DA70F2A981F2E0054D745 /* PBXTargetDependency */,
+			);
+			name = BetterSleepChallenge;
+			packageProductDependencies = (
+			);
+			productName = BetterSleepChallenge;
+			productReference = 2342C82E2A83076A0018EBBE /* BetterSleepChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2342C83F2A83076C0018EBBE /* BetterSleepChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2342C8572A83076C0018EBBE /* Build configuration list for PBXNativeTarget "BetterSleepChallengeTests" */;
+			buildPhases = (
+				2342C83C2A83076C0018EBBE /* Sources */,
+				2342C83D2A83076C0018EBBE /* Frameworks */,
+				2342C83E2A83076C0018EBBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2342C8422A83076C0018EBBE /* PBXTargetDependency */,
+			);
+			name = BetterSleepChallengeTests;
+			productName = BetterSleepChallengeTests;
+			productReference = 2342C8402A83076C0018EBBE /* BetterSleepChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		239DA6FD2A981F2B0054D745 /* BetterSleepChallengeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 239DA7112A981F2E0054D745 /* Build configuration list for PBXNativeTarget "BetterSleepChallengeWidgetExtension" */;
+			buildPhases = (
+				239DA6FA2A981F2B0054D745 /* Sources */,
+				239DA6FB2A981F2B0054D745 /* Frameworks */,
+				239DA6FC2A981F2B0054D745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterSleepChallengeWidgetExtension;
+			productName = BetterSleepChallengeWidgetExtension;
+			productReference = 239DA6FE2A981F2B0054D745 /* BetterSleepChallengeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2342C8262A83076A0018EBBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2342C82D2A83076A0018EBBE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2342C83F2A83076C0018EBBE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2342C82D2A83076A0018EBBE;
+					};
+					239DA6FD2A981F2B0054D745 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 2342C8292A83076A0018EBBE /* Build configuration list for PBXProject "BetterSleepChallenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2342C8252A83076A0018EBBE;
+			packageReferences = (
+			);
+			productRefGroup = 2342C82F2A83076A0018EBBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2342C82D2A83076A0018EBBE /* BetterSleepChallenge */,
+				2342C83F2A83076C0018EBBE /* BetterSleepChallengeTests */,
+				239DA6FD2A981F2B0054D745 /* BetterSleepChallengeWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2342C82C2A83076A0018EBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D66F4A2A833DB500D824DE /* wind.caf in Resources */,
+				2342C8392A83076C0018EBBE /* Preview Assets.xcassets in Resources */,
+				23D66F502A833DB500D824DE /* birds.caf in Resources */,
+				23D66F522A833DB500D824DE /* orchestral.caf in Resources */,
+				23D66F4F2A833DB500D824DE /* rain.caf in Resources */,
+				23D66F4D2A833DB500D824DE /* piano.caf in Resources */,
+				238030902A89BFAF00B8C350 /* README.md in Resources */,
+				23D66F512A833DB500D824DE /* ocean.caf in Resources */,
+				23D66F4C2A833DB500D824DE /* flute.caf in Resources */,
+				23D66F4E2A833DB500D824DE /* lounge.caf in Resources */,
+				23D66F4B2A833DB500D824DE /* musicbox.caf in Resources */,
+				2342C8362A83076C0018EBBE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2342C83E2A83076C0018EBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239DA6FC2A981F2B0054D745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239DA70C2A981F2E0054D745 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2342C82A2A83076A0018EBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2398D31C2A844DC4008CBA54 /* BSComposerViewFilterType.swift in Sources */,
+				2342C8342A83076A0018EBBE /* BSTabView.swift in Sources */,
+				237A86E12A8444BC00426026 /* BSBackgroundView.swift in Sources */,
+				2380308E2A89BBF300B8C350 /* BSUserStoreManager.swift in Sources */,
+				2398D3292A8455C8008CBA54 /* BSSoundPlayerViewModel.swift in Sources */,
+				23D66F392A83175200D824DE /* View+Extensions.swift in Sources */,
+				2398D3222A8450EC008CBA54 /* UserDefaultsBacked.swift in Sources */,
+				2326C11B2A867F19006C31C9 /* BSSoundModel.swift in Sources */,
+				23D66F3E2A832F1500D824DE /* BSSoundPlayerManager.swift in Sources */,
+				2381A1742A858BBB008CB76D /* String+Extensions.swift in Sources */,
+				239DA7152A9824240054D745 /* BetterSleepChallengeWidgetLiveActivity.swift in Sources */,
+				2398D31E2A844DF4008CBA54 /* BSComposerViewSoundType.swift in Sources */,
+				2342C8322A83076A0018EBBE /* BetterSleepChallengeApp.swift in Sources */,
+				2398D31A2A844DAF008CBA54 /* BSComposerViewType.swift in Sources */,
+				2398D3252A84526E008CBA54 /* BSConstants.swift in Sources */,
+				23D66F3C2A8317BE00D824DE /* BSComposerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2342C83C2A83076C0018EBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2342C8452A83076C0018EBBE /* BetterSleepChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239DA6FA2A981F2B0054D745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239DA70A2A981F2B0054D745 /* BetterSleepChallengeWidget.swift in Sources */,
+				239DA7082A981F2B0054D745 /* BetterSleepChallengeWidgetLiveActivity.swift in Sources */,
+				239DA7062A981F2B0054D745 /* BetterSleepChallengeWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2342C8422A83076C0018EBBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2342C82D2A83076A0018EBBE /* BetterSleepChallenge */;
+			targetProxy = 2342C8412A83076C0018EBBE /* PBXContainerItemProxy */;
+		};
+		239DA70F2A981F2E0054D745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 239DA6FD2A981F2B0054D745 /* BetterSleepChallengeWidgetExtension */;
+			targetProxy = 239DA70E2A981F2E0054D745 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2342C8522A83076C0018EBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2342C8532A83076C0018EBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2342C8552A83076C0018EBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BetterSleepChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BetterSleepChallenge/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.BetterSleepChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2342C8562A83076C0018EBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BetterSleepChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BetterSleepChallenge/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.BetterSleepChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2342C8582A83076C0018EBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.BetterSleepChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterSleepChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterSleepChallenge";
+			};
+			name = Debug;
+		};
+		2342C8592A83076C0018EBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.BetterSleepChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterSleepChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterSleepChallenge";
+			};
+			name = Release;
+		};
+		239DA7122A981F2E0054D745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BetterSleepChallengeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BetterSleepChallengeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.BetterSleepChallenge.BetterSleepChallengeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		239DA7132A981F2E0054D745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BetterSleepChallengeWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BetterSleepChallengeWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.BetterSleepChallenge.BetterSleepChallengeWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2342C8292A83076A0018EBBE /* Build configuration list for PBXProject "BetterSleepChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2342C8522A83076C0018EBBE /* Debug */,
+				2342C8532A83076C0018EBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2342C8542A83076C0018EBBE /* Build configuration list for PBXNativeTarget "BetterSleepChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2342C8552A83076C0018EBBE /* Debug */,
+				2342C8562A83076C0018EBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2342C8572A83076C0018EBBE /* Build configuration list for PBXNativeTarget "BetterSleepChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2342C8582A83076C0018EBBE /* Debug */,
+				2342C8592A83076C0018EBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		239DA7112A981F2E0054D745 /* Build configuration list for PBXNativeTarget "BetterSleepChallengeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239DA7122A981F2E0054D745 /* Debug */,
+				239DA7132A981F2E0054D745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2342C8262A83076A0018EBBE /* Project object */;
+}
